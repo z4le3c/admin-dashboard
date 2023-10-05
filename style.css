@@ -80,6 +80,7 @@ p {
 .header-section .bar {
     border-radius: 16px;
     background: lightgray;
+    height: 2.5rem;
 }
 
 .header-section .userinfo {
