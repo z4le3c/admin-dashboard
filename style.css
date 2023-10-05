@@ -113,6 +113,13 @@ p {
     grid-template-columns: 4fr 2fr 7fr;
     align-items: center;
     justify-items: center;
+    gap:.8rem;
+}
+
+.header-section  .notifications,
+.header-section .profile-picture {
+    display: grid;
+    align-items: center;
 }
 
 .header-section img {
