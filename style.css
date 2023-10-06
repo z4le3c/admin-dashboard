@@ -1,8 +1,12 @@
 :root {
     font-size: 62.5%;
     --main-color: #353535;
+    --main-color-hover: #575757;
+    --main-color-active: #818181;
     --middle-color: #d9d9d9;
     --ligth-color: #ffffff;
+    --ligth-color-hover: #c7c7c7;
+    --ligth-color-active: #a1a1a1;
     --font-color: #284b63;
     --contrast-color: #3c6e71;
     --headers-font: 'Rozha One', serif;
@@ -19,6 +23,10 @@ body {
 
 p {
     margin: 0;
+}
+
+img:hover {
+    opacity: 75%;
 }
 
 .sidebar-section {
@@ -38,12 +46,18 @@ p {
     color: var(--ligth-color);
 }
 
-.sidebar-section span {
-    color:var(--ligth-color);
+.sidebar-section a:hover {
+    color:var(--ligth-color-hover)
 }
+
+.sidebar-section a:active {
+    color:var(--ligth-color-active)
+}
+
 
 .sidebar-section .header span {
     font-size: 4.8rem;
+    color: var(--ligth-color)
 }
 
 .sidebar-section h1 {
@@ -169,6 +183,14 @@ p {
     font-weight: bold;
     font-size: 1.4rem;
     color: var(--ligth-color);
+}
+
+.header-section button:hover {
+    background: var(--main-color-hover);
+}
+
+.header-section button:active {
+    background: var(--main-color-active);
 }
 
 .main-section {
